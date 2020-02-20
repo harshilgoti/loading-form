@@ -41,7 +41,6 @@ const classes = useStyles();
 
 setTimeout(function(){
   setLoading(true)
-
 },2000)
 
 function Copyright() {
