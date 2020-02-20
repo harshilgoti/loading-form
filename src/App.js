@@ -149,45 +149,44 @@ function Copyright() {
       ):(
         <div>
            <Container component="main" maxWidth="xs">
-       <CssBaseline />
-       <div className={classes.paper}>
-       <Skeleton variant="circle" width={40} height={40} />
-         <Typography component="h1" variant="h5">
-         <Skeleton variant="text" width={210} height={80}/>
-         </Typography>
-         <form className={classes.form} noValidate>
-           <Grid container spacing={2}>
-             <Grid item xs={12} sm={6}>
-             <Skeleton variant="text" width={180} height={80}/>
-             </Grid>
-             <Grid item xs={12} sm={6}>
-             <Skeleton variant="text" width={180} height={80}/>
-             </Grid>
-             <Grid item xs={12}>
-             <Skeleton variant="text" width={400} height={50}/>
-             </Grid>
-             <Grid item xs={12}>
-             <Skeleton variant="text" width={400} height={50}/>
-             </Grid>
-             <Grid item xs={12}>
-             <Skeleton variant="text" width={400} height={50}/>
-             </Grid>
-           </Grid>
-          
-           <Grid container justify="flex-end">
-             <Grid item>
-             <Skeleton variant="text" width={210} height={20}/>
-             </Grid>
-           </Grid>
-         </form>
-       </div>
-       <Box mt={5}>
-       <Skeleton variant="text" width={400} height={40}/>
-       </Box>
-     </Container>
+              <CssBaseline />
+              <div className={classes.paper}>
+              <Skeleton variant="circle" width={40} height={40} />
+                <Typography component="h1" variant="h5">
+                <Skeleton variant="text" width={210} height={80}/>
+                </Typography>
+                <form className={classes.form} noValidate>
+                  <Grid container spacing={2}>
+                    <Grid item xs={12} sm={6}>
+                    <Skeleton variant="text" width={180} height={80}/>
+                    </Grid>
+                    <Grid item xs={12} sm={6}>
+                    <Skeleton variant="text" width={180} height={80}/>
+                    </Grid>
+                    <Grid item xs={12}>
+                    <Skeleton variant="text" width={400} height={50}/>
+                    </Grid>
+                    <Grid item xs={12}>
+                    <Skeleton variant="text" width={400} height={50}/>
+                    </Grid>
+                    <Grid item xs={12}>
+                    <Skeleton variant="text" width={400} height={50}/>
+                    </Grid>
+                  </Grid>
+                  
+                  <Grid container justify="flex-end">
+                    <Grid item>
+                    <Skeleton variant="text" width={210} height={20}/>
+                    </Grid>
+                  </Grid>
+                </form>
+              </div>
+              <Box mt={5}>
+              <Skeleton variant="text" width={400} height={40}/>
+              </Box>
+          </Container>
         </div>
       )}
-     
     </div>
   );
 }
